@@ -426,6 +426,10 @@ footer {
         margin-left: 20px;
     }
 
+    .hr-line-class {
+        height: 215px;
+    }
+
     .feature-description {
 
         margin-top: 170px;
