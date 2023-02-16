@@ -79,6 +79,64 @@ header {
     height: 500px;
 }
 
+/* ------------------
+                   quick list area style
+                  -----------------------------*/
+main {
+    margin: 0 240px;
+}
+
+.quick-list-area {
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+}
+
+.quick-list-img-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.quick-list-common-img {
+    width: 240px;
+    height: 240px;
+}
+
+.quick-list-text {
+    margin-left: 73px;
+}
+
+.quick-list-img {
+    border-radius: 8px;
+}
+
+.quick-list-text {}
+
+.quick-list-text-tittle {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.quick-list-text-tittle1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.quick-list-text-tittle2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick-list-text-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 
 /* -------------- Responsive area
                   ------------------- */
@@ -111,6 +169,26 @@ header {
         height: 300px;
     }
 
+    main {
+        margin: 0 0px;
+    }
+
+    /* quick list area style mob*/
+
+    .quick-list-img-area {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-list-area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quick-list-text {
+        margin-left: 10px;
+    }
+
 }
 
 /* Tablet responsive */
@@ -128,4 +206,30 @@ header {
 
 
     }
+
+    main {
+        margin: 0 0;
+    }
+
+    /* quick list tab responsive*/
+    .quick-list-img-area {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-list-area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quick-list-common-img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .quick-list-text {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
 }
