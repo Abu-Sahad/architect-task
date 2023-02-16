@@ -9,6 +9,7 @@ header {
 
 /* -----------NAV STYLE 
                -------------------*/
+
 .nav-section {
     display: flex;
     justify-content: space-around;
@@ -77,6 +78,7 @@ header {
 .banner-main-img {
     width: 75%;
     height: 500px;
+    margin-bottom: 45px;
 }
 
 /* ------------------
@@ -345,12 +347,6 @@ footer {
     margin-bottom: 216px;
 }
 
-/* .footer-section {
-    background: #FFF4E7;
-    height: 100px;
-    width: 85%;
-    text-align: center;
-} */
 
 .footer-area {
     margin-right: 150px;
@@ -363,6 +359,7 @@ footer {
     background: #FFF4E7;
     padding: 50px 25px;
     border-radius: 10px;
+    text-align: center;
 
 }
 
