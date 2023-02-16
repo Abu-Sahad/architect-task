@@ -83,13 +83,14 @@ header {
                    quick list area style
                   -----------------------------*/
 main {
-    margin: 0 240px;
+    margin-left: 240px;
 }
 
 .quick-list-area {
     display: flex;
     margin-top: 85px;
     align-items: center;
+    /* margin-right: 240px; */
 }
 
 .quick-list-img-area {
@@ -138,12 +139,149 @@ main {
     color: #727272;
 }
 
-/* -------------- Responsive area
+/* ------------------
+             feature area star
+               --------------------------- */
+
+
+
+.feature-are {
+    margin-top: 160px;
+    display: flex;
+    margin-bottom: 160px;
+    margin-right: 100px;
+    /* margin-left: -140px; */
+}
+
+.hr-line-class {
+    border-left: 6px solid #FF900E;
+    height: 100px;
+}
+
+.feature-tittle {
+    padding-left: 21px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-part-tools {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feature-part-tool-tittle {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.feature-part-tools-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #727272;
+}
+
+.feature-img-area {
+    margin-left: 60px;
+}
+
+.feature-img-area img {
+    width: 700px;
+    height: 982px;
+}
+
+.feature-button {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: -75px;
+    margin-left: -30px;
+}
+
+.feature-description-btn {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*----------------- 
+            Summary details area 
+            -----------------------*/
+.details-service {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+    border-radius: 20px;
+
+}
+
+.summary-details-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+
+}
+
+.summary-details-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.details-are {
+    width: 150px;
+    height: 150px;
+    background: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 45px 35px;
+}
+
+.details-are img {
+    width: 45.22px;
+    height: 45.22px;
+}
+
+.details-are:hover {
+    border: 2px solid #FF900E;
+    transition-property: border;
+    transition-duration: 5s;
+    border-radius: 15px;
+}
+
+.details-are-number {
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+
+/* -------------- 
+                Responsive area
                   ------------------- */
 
 /* Mobile responsive */
-
 @media screen and (max-width: 576px) {
+
+    /* nav bar res */
     .nav-section {
         flex-direction: column;
         align-items: flex-start;
@@ -158,6 +296,7 @@ main {
 
     }
 
+    /* banner res */
     .banner-tittle {
         font-weight: 700;
         font-size: 35px;
@@ -187,6 +326,27 @@ main {
 
     .quick-list-text {
         margin-left: 10px;
+    }
+
+    /* feature res mob */
+    .feature-are {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .feature-description {
+
+        margin-top: 75px;
+    }
+
+    .feature-img-area img {
+        width: 100%;
+        height: 582px;
+    }
+
+    /* summary details area mob res */
+    .details-service{
+        
     }
 
 }
@@ -230,6 +390,17 @@ main {
     .quick-list-text {
         margin-left: 10px;
         margin-top: 20px;
+    }
+
+    /* feature res tab */
+    .feature-are {
+        flex-direction: column;
+        margin-left: 75px;
+    }
+
+    .feature-img-area img {
+        width: 100%;
+        height: 582px;
     }
 
 }
